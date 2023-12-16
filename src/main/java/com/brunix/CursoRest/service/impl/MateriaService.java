@@ -5,10 +5,12 @@ import com.brunix.CursoRest.modelo.Materia;
 import com.brunix.CursoRest.modelo.MateriaDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Service
 public class MateriaService implements com.brunix.CursoRest.service.MateriaService {
 
     @Autowired

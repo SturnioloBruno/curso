@@ -5,10 +5,12 @@ import com.brunix.CursoRest.modelo.Cursada;
 import com.brunix.CursoRest.modelo.CursadaDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Service
 public class CursadaService implements com.brunix.CursoRest.service.CursadaService {
 
     @Autowired
