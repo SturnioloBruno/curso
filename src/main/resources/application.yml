@@ -1,0 +1,19 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:~/db_estudiantes
+    username: sa
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
