@@ -1,7 +1,6 @@
 package com.brunix.CursoRest.service;
 
 import com.brunix.CursoRest.modelo.CursadaDto;
-import com.brunix.CursoRest.modelo.MateriaDto;
 
 import java.util.Set;
 

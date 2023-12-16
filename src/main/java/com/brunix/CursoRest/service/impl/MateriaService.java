@@ -1,8 +1,6 @@
 package com.brunix.CursoRest.service.impl;
 
 import com.brunix.CursoRest.dao.MateriaRepository;
-import com.brunix.CursoRest.modelo.Estudiante;
-import com.brunix.CursoRest.modelo.EstudianteDto;
 import com.brunix.CursoRest.modelo.Materia;
 import com.brunix.CursoRest.modelo.MateriaDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
